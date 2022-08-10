@@ -44,7 +44,6 @@ html,body{
 }
 .banner{
     background-image: url(https://source.unsplash.com/vSuQJKZkt4U/1920x1080);
-    width: 1442px;
     height: 812px;
     align-items: center;
     display:flex;
@@ -56,12 +55,7 @@ html,body{
     font-size: 60px;
     color: #FFFFFF;
 }
-.image2{
-    width: 600px;
-    height: 400px;
-    display: block;
-    align-items: center;
-}
+
 .nav_menu{
     background: #FFFFFF;
     justify-content: space-between;
@@ -93,21 +87,50 @@ html,body{
     list-style: none;
     justify-content: space-between;
 }
-.text3{
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-    display: block;
-    align-items: center;
-}
-.main{
-    height: 632px;
-    display: block;
-    align-items: center;
-    justify-content: space-around;
-}
 .line{
   width: 80px;
   height: 10px;
   background: #817070;
+}
+.right{
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+     text-align: center;
+}
+.title {
+     font-weight: 500;
+     font-size: 36px;
+     line-height: 53px;
+}
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.img3 {
+    width: 600px;
+    height: 400px;
+    margin-left: 80px;
+}
+.text3 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 123px;
+}
+.img1{
+  width: 325px;
+  height: 216px;
+}
+.img2{
+  width: 325px;
+  height: 216px;
+}
+.img4{
+  width: 325px;
+  height: 216px;
 }
