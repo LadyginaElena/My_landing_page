@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: 'Oswald', sans-serif;
+    height: 100%;
+}
+.header{
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.footer{
+    flex: 0 0 auto;
+    background: #05A88D;
+    height: 260px;
+}
+.footer__bottom{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+}
+.card_image1{
+    width: 325px;
+    height: 216px;
+}
+.card_container{
+    display:flex;
+}
+.card__content1{
+    display:flex;
+    justify-content: center;
+    background: #EFEFEF;
+}
+.banner{
+    background-image: url(https://source.unsplash.com/vSuQJKZkt4U/1920x1080);
+    width: 1442px;
+    height: 812px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.text_big{
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.image2{
+    width: 600px;
+    height: 400px;
+    display: block;
+    align-items: center;
+}
+.nav_menu{
+    background: #FFFFFF;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: 500;
+    font-size: 36px;
+    color: #000000;
+    text-decoration: none;
+    line-height: 53px;
+    display: flex;
+
+}
+.link{
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.link:hover{
+    text-decoration: underline blue;
+}
+.logo:hover{
+    text-decoration: underline blue;
+}
+.menu__li{
+    list-style: none;
+    justify-content: space-between;
+}
+.text3{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    display: block;
+    align-items: center;
+}
+.main{
+    height: 632px;
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+}
+.line{
+  width: 80px;
+  height: 10px;
+  background: #817070;
+}
