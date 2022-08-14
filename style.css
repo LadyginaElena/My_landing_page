@@ -13,13 +13,11 @@ html,body{
 }
 .menu {
 	display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 .footer{
-    flex: 0 0 auto;
-    background: #05A88D;
     height: 260px;
 }
 .footer__bottom{
@@ -38,7 +36,6 @@ html,body{
     display:flex;
 }
 .card__content1{
-    display:flex;
     justify-content: center;
     background: #EFEFEF;
 }
@@ -88,26 +85,26 @@ html,body{
     justify-content: space-between;
 }
 .line{
-  width: 80px;
-  height: 10px;
-  background: #817070;
+    width: 80px;
+    height: 10px;
+    background: #817070;
 }
 .right{
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .main {
-     text-align: center;
+    text-align: center;
 }
 .title {
-     font-weight: 500;
-     font-size: 36px;
-     line-height: 53px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
 }
 .card {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .img3 {
     width: 600px;
@@ -123,14 +120,17 @@ html,body{
     margin-right: 123px;
 }
 .img1{
-  width: 325px;
-  height: 216px;
+    width: 325px;
+    height: 216px;
 }
 .img2{
-  width: 325px;
-  height: 216px;
+    width: 325px;
+    height: 216px;
 }
 .img4{
-  width: 325px;
-  height: 216px;
+    width: 325px;
+    height: 216px;
+}
+fieldset{
+    background: #817070;
 }
